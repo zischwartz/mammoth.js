@@ -1149,14 +1149,22 @@
       "dev": true
     },
     "hamjest": {
-      "version": "3.2.1",
-      "resolved": "https://registry.npmjs.org/hamjest/-/hamjest-3.2.1.tgz",
-      "integrity": "sha512-3v1AvIpohVDUwnII7BIm+uf6dGqexdhaezwi5Jn/S5BL31SKwmqK6hj7R6IAQ7pHuEVgs/+c5lp5mbR75fpAtA==",
+      "version": "2.13.0",
+      "resolved": "http://registry.npmjs.org/hamjest/-/hamjest-2.13.0.tgz",
+      "integrity": "sha1-SF/31RG4Gl3KZQkbu9QA+Xqas4c=",
       "dev": true,
       "requires": {
         "assertion-error": "~1.0.0",
-        "bluebird": "^3.3.4",
-        "lodash": "^4.17.11"
+        "lodash": "^2.4.1",
+        "q": "~0.9.7"
+      },
+      "dependencies": {
+        "lodash": {
+          "version": "2.4.2",
+          "resolved": "http://registry.npmjs.org/lodash/-/lodash-2.4.2.tgz",
+          "integrity": "sha1-+t2DS5aDBz2hebPq5tnA0VBT9z4=",
+          "dev": true
+        }
       }
     },
     "has": {
